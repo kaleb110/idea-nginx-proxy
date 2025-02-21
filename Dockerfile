@@ -2,7 +2,7 @@
 FROM nginx:latest
 
 # Copy your custom Nginx configuration from the nginx directory
-COPY nginx/nginx.conf /etc/nginx/nginx.conf
+COPY nginx.conf /etc/nginx.conf
 
 # Expose port 80 for HTTP traffic
 EXPOSE 80
